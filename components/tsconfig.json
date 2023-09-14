@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+
+    "paths": {
+      "@utils/*": ["utils/*"]
+    },
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["DOM", "ESNext"],
+    "strict": true,
+    "esModuleInterop": true,
+    "declaration": false,
+    "inlineSources": false,
+    "outDir": "./build",
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "allowSyntheticDefaultImports": true,
+    //"rootDir": "src",
+    "moduleResolution": "node",
+    "types": ["lit-element"]
+  },
+  "include": ["src/**/*.ts", "utils/**/*.ts", "src/types/typings.d.ts"],
+
+  "exclude": ["node_modules"]
+}
